@@ -15,7 +15,7 @@
   margin-bottom: 20px;
 }
   p {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
@@ -38,16 +38,24 @@
 }
 
 .send-btn {
-  padding: 5px 115px 5px 115px;
   color: black;
   background-color: transparent;
   border: 1px solid black;
-  border-radius: 15px;
+  font-family: $body-font;
+  font-size: 12px;
+  letter-spacing: 0.16666666666666666rem;
+  padding: 10px 45px 10px 45px;
   &:hover {
     border: 1px solid #EF715D;
     background-color: #EF715D;
     color:white;
+    text-decoration: none;
   }
+}
+
+.send-button {
+  display: flex;
+  justify-content: center;
 }
 
 .vl {
