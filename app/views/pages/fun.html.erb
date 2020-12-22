@@ -118,6 +118,19 @@ function closeModal() {
   document.getElementById("myModal").style.display = "none";
 }
 
+// document.addEventListener(
+//   "click",
+//   function(event) {
+//     // If user either clicks X button OR clicks outside the modal window, then close modal by calling closeModal()
+//     if (
+//       event.target.matches(".close") ||
+//       event.target.closest(".modal")
+//     ) {
+//       closeModal()
+//     }
+//   },
+// )
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -155,7 +168,6 @@ function scrollFunction() {
     myarrow.style.display = "none";
   }
 }
-
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;

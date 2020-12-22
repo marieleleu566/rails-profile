@@ -126,6 +126,7 @@
   right:40px;
   width: 1px;
   height: 1px;
+  z-index: 2;
 
   &::after {
     content:"";
