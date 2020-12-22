@@ -29,8 +29,8 @@
     </div>
 
     <div id="myModal" class="modal">
-      <span class="close cursor" onclick="closeModal()">&times;</span>
-      <div class="modal-content">
+<!--       <span class="close cursor" onclick="closeModal()">&times;</span>
+ -->      <div class="modal-content">
         <div class="mySlides">
           <%= image_tag "danica.jpg", style:"width:100%"%>
         </div>
@@ -118,18 +118,18 @@ function closeModal() {
   document.getElementById("myModal").style.display = "none";
 }
 
-// document.addEventListener(
-//   "click",
-//   function(event) {
-//     // If user either clicks X button OR clicks outside the modal window, then close modal by calling closeModal()
-//     if (
-//       event.target.matches(".close") ||
-//       event.target.closest(".modal")
-//     ) {
-//       closeModal()
-//     }
-//   },
-// )
+document.addEventListener(
+  "click",
+  function(event) {
+    // If user either clicks X button OR clicks outside the modal window, then close modal by calling closeModal()
+    if (
+      event.target.matches(".close") ||
+      event.target.matches(".modal")
+    ) {
+      closeModal()
+    }
+  },
+)
 
 var slideIndex = 1;
 showSlides(slideIndex);
