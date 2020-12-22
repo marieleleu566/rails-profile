@@ -24,7 +24,7 @@ Rails.application.configure do
 
   # Compress CSS using a preprocessor.
   # config.assets.css_compressor = :sass
-  config.action_mailer_default_url_options = { host: 'https://marieleleu.com' }
+  config.action_mailer_default_url_options = { host: 'https://marieleleu.herokuapp.com/' }
   Rails.application.routes.default_url_options[:host] = 'https://marieleleu.com'
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
