@@ -135,6 +135,9 @@ html, body {
   .ParallaxContainer {
     height: 100vh;
   }
+  .MainContainer {
+    margin: 10px;
+  }
 }
 
 @media screen and (max-width: 760px) {
@@ -155,6 +158,9 @@ html, body {
   }
   .ParallaxContainer {
     height: 75vh;
+  }
+  .MainContainer {
+    margin: 10px;
   }
 }
 
@@ -177,5 +183,8 @@ html, body {
   }
   .ParallaxContainer {
     height: 70vh;
+  }
+  .MainContainer {
+    margin: 10px;
   }
 }
