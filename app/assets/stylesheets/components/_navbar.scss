@@ -133,7 +133,7 @@
     display:block;
     position:absolute;
     border-radius:50%;
-    background-color:var(--splash-bg-color);
+    background-color:#EF715D;
 
     // screen diameter can be 142vmax at most,
     // circle needs to be twice that size to cover it
@@ -167,7 +167,7 @@
 
   //animate the menu icon
   .menuicon {
-    color:black;
+    color:white;
     transform:rotate(180deg);
 
     &__circle {
