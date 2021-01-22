@@ -30,19 +30,24 @@
 }
 
 .dabby-content {
-  text-align: center;
   position: relative;
   color:white;
-  // border-radius: 2px;
   background: linear-gradient(135deg, #DCA494 0%, #DFAFA0 38%, #DCA494 100%);
   padding: 30px;
   box-shadow: 8px 5px 2px 1px rgba(0, 0, 0, 0.07);
   width: 300px;
   font-weight: 700px;
   p {
-  font-family: "Lato", sans-serif;
+  font-family: $body-font;
   font-weight: 300;
   font-style: normal;
+  }
+  h3 {
+  text-shadow: 2px 2px #dca499;
+  text-align: center;
+  font-family: $body-font;
+  font-size: 25px;
+  letter-spacing: 0.16666666666666666rem;
   }
 }
 
@@ -88,7 +93,7 @@
 // laptop //
 .css-mb {
   max-width: 600px; /* Set the desired maximum width of the macbook */
-  min-width: 100px; /* Set the desired minimum width of the macbook */
+  min-width: 200px; /* Set the desired minimum width of the macbook */
 }
 
 .css-mb div {
