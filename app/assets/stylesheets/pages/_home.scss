@@ -1,8 +1,10 @@
 
 .portfolio {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 100px 100px 100px 180px;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 100px;
+  margin-bottom: 50px;
+  margin-top: 100px;
 }
 
 .dabby-info {
@@ -10,10 +12,32 @@
   align-items: center;
 }
 
+.star {
+  position: absolute;
+  right: 250px;
+  bottom: -75px;
+}
 
+.star1 {
+  position: absolute;
+  left: 75px;
+}
+
+.tape1 {
+  position: absolute;
+  width: 230px;
+  bottom: 250px;
+}
 
 .dabby-content {
-  width: 400px;
+  text-align: center;
+  position: relative;
+  color:white;
+  // border-radius: 2px;
+  background: linear-gradient(135deg, #DCA494 0%, #DFAFA0 38%, #DCA494 100%);
+  padding: 30px;
+  box-shadow: 8px 5px 2px 1px rgba(0, 0, 0, 0.07);
+  width: 300px;
   font-weight: 700px;
   p {
   font-family: "Lato", sans-serif;
@@ -55,10 +79,16 @@
   margin-bottom: 30px;
 }
 
+.grid-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 // laptop //
 .css-mb {
-  max-width: 550px; /* Set the desired maximum width of the macbook */
-  min-width: 50px; /* Set the desired minimum width of the macbook */
+  max-width: 600px; /* Set the desired maximum width of the macbook */
+  min-width: 100px; /* Set the desired minimum width of the macbook */
 }
 
 .css-mb div {
@@ -342,6 +372,9 @@ html, body {
   .MainContainer {
     margin: 10px;
   }
+    .portfolio {
+     grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 420px) {
@@ -366,5 +399,8 @@ html, body {
   }
   .MainContainer {
     margin: 10px;
+  }
+  .portfolio {
+     grid-template-columns: 1fr;
   }
 }
