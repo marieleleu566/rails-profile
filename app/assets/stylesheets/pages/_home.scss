@@ -1,26 +1,35 @@
 
+// .portfolio {
+//   display: grid;
+//   grid-template-columns: 3fr 1fr;
+//   grid-gap: 20px;
+//   margin-bottom: 50px;
+//   margin-top: 100px;
+// }
+
 .portfolio {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-gap: 20px;
-  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
   margin-top: 100px;
 }
 
 .dabby-info {
   display:flex;
   align-items: center;
+  margin-bottom: 150px;
+  margin-right: 100px;
 }
 
 .star {
   position: absolute;
-  right: 250px;
-  bottom: -75px;
+  right: 300px;
+  bottom: -225px;
 }
 
 .star1 {
   position: absolute;
   left: 75px;
+  top: 750px;
 }
 
 .tape1 {
@@ -84,16 +93,17 @@
   margin-bottom: 30px;
 }
 
-.grid-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+// .grid-center {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
 
 // laptop //
 .css-mb {
-  max-width: 750px; /* Set the desired maximum width of the macbook */
+  // max-width: 750px; /* Set the desired maximum width of the macbook */
   min-width: 200px; /* Set the desired minimum width of the macbook */
+  width: 700px;
 }
 
 .css-mb div {
@@ -407,5 +417,6 @@ html, body {
   }
   .portfolio {
      grid-template-columns: 1fr;
+     grid-gap: 20px;
   }
 }
