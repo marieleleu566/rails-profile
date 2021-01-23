@@ -21,11 +21,15 @@
 }
 
 #contact_email {
-  padding-right: 10px;
+  padding-right: 40px;
 }
 
 #contact_name {
-  padding-right: 10px;
+  padding-right: 40px;
+}
+
+#contact_message {
+  padding-right: 35px;
 }
 
 .contact-img {
@@ -53,7 +57,7 @@
   font-family: $body-font;
   font-size: 12px;
   letter-spacing: 0.16666666666666666rem;
-  padding: 10px 78px 10px 78px;
+  padding: 10px 68px 10px 68px;
   &:hover {
     border: 1px solid #EF715D;
     background-color: #EF715D;
@@ -62,6 +66,9 @@
   }
 }
 
+.send-button {
+  margin-left: 15px;
+}
 
 .vl {
   border-left: 1px solid black;
