@@ -6,6 +6,7 @@
   align-items:center;
   justify-content:center;
   margin-top: 70px;
+  background-color: white;
 }
 .contact-form {
   display:flex;
@@ -59,8 +60,8 @@
   letter-spacing: 0.16666666666666666rem;
   padding: 10px 68px 10px 68px;
   &:hover {
-    border: 1px solid #EF715D;
-    background-color: #EF715D;
+    border: 1px solid #808080;
+    background-color: #808080;
     color:white;
     text-decoration: none;
   }
@@ -88,7 +89,7 @@
   flex-direction: column;
   justify-content: center;
   i {
-    color:#EF715D;
+    color:#808080;
   }
 }
 
