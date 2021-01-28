@@ -1,8 +1,8 @@
 
-// @keyframes show {
-//   0%{opacity:0;}
-//   100%{opacity:1;}
-// }
+@keyframes show {
+  0%{opacity:0;}
+  100%{opacity:1;}
+}
 .portfolio {
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -16,7 +16,7 @@
   font-weight: 700;
   position: absolute;
   top: 130px;
-  left: 80px;
+  left: 81px;
 }
 
 .description {
@@ -33,6 +33,7 @@
   width: 80%;
   margin-left: 220px;
   margin-top: 70px;
+  background-image: linear-gradient(rgba(0,0,0,.5));
 }
 
 
