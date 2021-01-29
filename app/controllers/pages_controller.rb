@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   def about
   end
 
-  def fun
+  def photography
   end
 
   def contact

@@ -1,18 +1,19 @@
-<div class="viewport">
+<!-- <div class="viewport"> -->
+
   <header class="header" role="banner">
 
     <nav id="nav" class="nav" role="navigation">
 
       <!-- ACTUAL NAVIGATION MENU -->
-      <ul class="nav__menu" id="menu" tabindex="-1" aria-label="main navigation" hidden>
-       <a href="#"><%= link_to "home", '/', class:"nav__link" %></a>
-        <a href="#"><%= link_to "about", '/about', class:"nav__link" %></a>
-        <a href="#"><%= link_to "fun", '/fun', class:"nav__link" %></a>
-        <a href="#"><%= link_to "contact", '/contact/new', class:"nav__link" %></a>
-      </ul>
+   <!--    <ul class="nav__menu" id="menu" tabindex="-1" aria-label="main navigation" hidden> -->
+        <a href="#" class="navlink"><%= link_to "home", '/', class:"nav__link" %></a>
+        <a href="#" class="navlink"><%= link_to "about", '/about', class:"nav__link active" %></a>
+        <a href="#" class="navlink"><%= link_to "photography", '/photography', class:"nav__link" %></a>
+        <a href="#" class="navlink"><%= link_to "contact", '/contact/new', class:"nav__link" %></a>
+<!--       </ul> -->
 
       <!-- MENU TOGGLE BUTTON -->
-      <a href="#nav" class="nav__toggle" role="button" aria-expanded="false" aria-controls="menu">
+<!--       <a href="#nav" class="nav__toggle" role="button" aria-expanded="false" aria-controls="menu">
         <svg class="menuicon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
           <title>Toggle Menu</title>
           <g>
@@ -23,12 +24,13 @@
             <circle class="menuicon__circle" r="23" cx="25" cy="25" />
           </g>
         </svg>
-      </a>
+      </a> -->
 
       <!-- ANIMATED BACKGROUND ELEMENT -->
-      <div class="splash"></div>
+<!--       <div class="splash"></div> -->
 
     </nav>
 
   </header>
-</div>
+<!-- </div> -->
+

@@ -1,7 +1,10 @@
 .about-img {
   height: auto;
   width: 100%;
-  margin-top:70px;
+}
+
+.c {
+  margin: 0 60px;
 }
 
 .wagon, .poly, .psb {
@@ -78,8 +81,8 @@
   letter-spacing: 0.16666666666666666rem;
   padding: 10px 25px 10px 30px;
   &:hover {
-    border: 1px solid #808080;
-    background-color: #808080;
+    border: 1px solid #ef715d;
+    background-color: #ef715d;
     color:white;
     text-decoration: none;
   }

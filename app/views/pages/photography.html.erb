@@ -1,6 +1,6 @@
-<div class="container">
+<div class="MainContainer">
+<div class="c">
   <div class="content">
-    <h1>photography</h1>
     <div class="row">
       <div class="column">
         <%= image_tag "danica.jpg", style:"width:100%", onclick:"openModal();currentSlide(1)", class:"hover-shadow cursor" %>
@@ -88,25 +88,10 @@
         </div>
       </div>
     </div>
-
-    <div class="Watercolors">
-      <h1>watercolors</h1>
-    </div>
-    <div class="card-scroller">
-    <div class="card"><%= image_tag "lemon.png", style:"height:300px; width:250px" %></div>
-    <div class="card"><%= image_tag "lavander.png", style:"height:300px; width:250px" %></div>
-    <div class="card"><%= image_tag "monsta.png", style:"height:300px; width:250px" %></div>
-    <div class="card"><%= image_tag "poppies.png", style:"height:300px; width:250px" %></div>
-    <div class="card"><%= image_tag "peony.png", style:"height:300px; width:250px" %></div>
-    <div class="card"><%= image_tag "watermelon.png", style:"height:300px; width:250px" %></div>
-    <div class="card"><%= image_tag "cactai.png", style:"height:300px; width:250px" %></div>
-    <div class="card"><%= image_tag "plant.png", style:"height:300px; width:250px" %></div>
-    <div class="card"><%= image_tag "naiko.png", style:"height:300px; width:250px" %></div>
-    </div>
   </div>
   <img src="https://res.cloudinary.com/marie-leleu/image/upload/v1608138659/up-arrow_ln7ulg.png" onclick="topFunction()" id="myarrow" title="Go to top">
 </div>
-
+</div>
 <script>
 function openModal() {
   document.getElementById("myModal").style.display = "block";
@@ -153,22 +138,5 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   // captionText.innerHTML = dots[slideIndex-1].alt;
 }
-//Get the button
-var myarrow = document.getElementById("myarrow");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-    myarrow.style.display = "block";
-  } else {
-    myarrow.style.display = "none";
-  }
-}
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
 </script>
