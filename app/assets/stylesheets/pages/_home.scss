@@ -521,6 +521,10 @@ html, body {
   .iphone {
     left: 0;
   }
+
+  .tape2 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 420px) {
@@ -567,5 +571,8 @@ html, body {
   }
   .iphone {
     left: 0;
+  }
+   .tape2 {
+    display:none;
   }
 }
